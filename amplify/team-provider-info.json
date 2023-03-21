@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-meraki-dev-214609-authRole",
+      "UnauthRoleArn": "arn:aws:iam::699328772264:role/amplify-meraki-dev-214609-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::699328772264:role/amplify-meraki-dev-214609-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-meraki-dev-214609-deployment",
+      "UnauthRoleName": "amplify-meraki-dev-214609-unauthRole",
+      "StackName": "amplify-meraki-dev-214609",
+      "StackId": "arn:aws:cloudformation:us-east-1:699328772264:stack/amplify-meraki-dev-214609/a41299a0-4e86-11ed-b347-0e9e8739e6db",
+      "AmplifyAppId": "d3hkt8yaq7wzdz"
+    },
+    "categories": {
+      "api": {
+        "meraki": {}
+      },
+      "auth": {
+        "meraki735e36bd": {
+          "userPoolId": "us-east-1_HYcpsdq7N",
+          "userPoolName": "merakiback4f1d9da8_userpool_4f1d9da8-dev",
+          "webClientId": "51op55qq27ea5cq1200eqjg53o",
+          "nativeClientId": "2dj0pnu7bds17fv49218a38m3j"
+        }
+      }
+    }
+  }
+}

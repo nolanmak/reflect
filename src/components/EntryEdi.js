@@ -1,0 +1,24 @@
+import { Editor } from '@tinymce/tinymce-react';
+
+export let entryEdi = <Editor
+    disabled = {false}
+    inline = {false}
+    apiKey='ytocjza1m3x9z3yic70089bvsm768v7ty4htmbg2wm2jc4jv'
+    
+    init={{
+      selector: "#entryEdi",
+      height: 500,
+      menubar: false,
+      placeholder: "Whats on your mind?",
+      plugins: [
+        'advlist', 'autolink', 'lists', 'link', 'image', 'charmap', 'preview',
+        'anchor', 'searchreplace', 'visualblocks', 'code', 'fullscreen',
+        'insertdatetime', 'media', 'table', 'code', 'help', 'wordcount'
+      ],
+      toolbar:  'undo redo | blocks | ' +
+            'bold italic forecolor | alignleft aligncenter ' +
+            'alignright alignjustify | bullist numlist outdent indent | ' +
+            'removeformat | help',
+      content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }'
+    }}
+    />
